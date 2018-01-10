@@ -1,11 +1,17 @@
+root = true
 
 [*]
-insert_final_newline = true
-end_of_line = lf
 charset = utf-8
-trim_trailing_whitespace = true
-indent_style = space
+end_of_line = lf
 indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 80
+trim_trailing_whitespace = true
 
 [*.md]
+max_line_length = off
 trim_trailing_whitespace = false
+
+[Make*]
+indent_style = tab

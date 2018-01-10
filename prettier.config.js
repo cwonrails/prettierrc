@@ -1,16 +1,12 @@
 module.exports = {
-  tabWidth: 4,
-  printWidth: 120,
-  proseWrap: 'preserve',
+  printWidth: 80,
+  tabWidth: 2,
+  useTabs: false,
   semi: false,
-  trailingComma: 'es5',
   singleQuote: true,
-  overrides: [
-    {
-      files: '{*.js?(on),.prettierrc,.stylelintrc,.babelrc}',
-      options: {
-        tabWidth: 2,
-      },
-    },
-  ],
+  trailingComma: 'none',
+  bracketSpacing: true,
+  jsxBracketSameLine: false,
+  arrowParens: 'always',
+  proseWrap: 'preserve'
 }

@@ -1,11 +1,12 @@
 {
-  "name": "@sourcegraph/prettierrc",
-  "version": "2.1.0",
-  "description": "TSLint config for TypeScript projects at Sourcegraph",
+  "name": "@cwonrails/prettierrc",
+  "version": "1.0.0",
+  "description": "Custom Prettier config for new projects",
   "main": "prettier.config.js",
+  "LICENSE": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sourcegraph/prettierrc"
+    "url": "https://github.com/cwonrails/prettierrc"
   },
   "keywords": [
     "prettier",
@@ -16,6 +17,6 @@
     "prettier": "prettier prettier.config.js --list-different --write"
   },
   "devDependencies": {
-    "prettier": "^1.7.4"
+    "prettier": "^1.10.1"
   }
 }
